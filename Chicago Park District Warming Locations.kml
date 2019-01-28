@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chicago Park District Warming Locations</name>
+    <description><![CDATA[Source: https://www.chicagoparkdistrict.com/about-us/news/chicago-park-district-announces-62-park-field-houses-serve-warming-shelters?fbclid=IwAR2YZaTO2aYWZsPAjP4WfxSDuMmVa3qHfycBGcRjcvHxdpiw8476s-Dgqa8<br><br>Updated 1/28/2019]]></description>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Park Warming Centers</name>
+      <Placemark>
+        <name>Ada Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6537751,41.6884791,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Altgeld Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6923177,41.8745206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amundsen Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7790809,41.9137166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Austin Town Hall Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7657791,41.888194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avalon Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5948294,41.741689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bessemer Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5571272,41.7325195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blackhawk Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7526523,41.9228418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calumet Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5292704,41.7178298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Columbus Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7695393,41.8742824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1401 S Sacramento Dr</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7004276,41.8635955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1119 W Cullerton St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6539074,41.855021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1330 W Chicago Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6614653,41.8966538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10436 S Wallace St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6383391,41.7042165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1313 S Throop St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6587581,41.8647231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1440 W 84th St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6600396,41.7416454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4320 W 15th St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7330744,41.8611015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2411 W 55th St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6849628,41.7935846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 N Central Park Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7162576,41.8826775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>825 W Sheridan Rd</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6506355,41.952329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>513 W 72nd St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6376858,41.7627958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1824 S Wood St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6718838,41.8570523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2936 W 85th St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.697015,41.7389695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2200 N Oakley Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6850872,41.9216453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2741 W Montrose Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6977103,41.960554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1440 N Sacramento Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7018134,41.9027538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6401 S Stony Island Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5856256,41.7787728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4438 W Wrightwood Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7381063,41.928971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2732 N Avers Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7237361,41.9315116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Follette Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7535601,41.904963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2045 N Lincoln Park W</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6359301,41.9196742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1230 W Greenleaf Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6616126,42.0108499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2949 E 131st St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5510174,41.6566638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6734 S Kedzie Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7030347,41.7710079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3843 N California Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6970874,41.9517076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2901 S Poplar Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6485994,41.8411442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3721 W 111th St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7137371,41.6910646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nash Community Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5798235,41.7657913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>429 N Columbus Dr</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6204121,41.8888598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6566 N Avondale Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.8151339,41.9993796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>201 E 111th St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6162736,41.6919025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>300 W 19th St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6330993,41.8567402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4247 W 31st St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7308512,41.8365049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4100 N Long Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7635893,41.955369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pulaski Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6633132,41.9067683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3111 E 77th St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5481995,41.757927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6100 W Fullerton Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7792116,41.9240427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5100 N Francisco Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7019812,41.9739995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11545 S Ave L</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5361576,41.6850932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3045 E 83rd St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5497971,41.7443673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4637 W 83rd St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7360673,41.741719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shabonna Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.799699,41.9450449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheridan Park</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6548397,41.8705565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Shields Avenue</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6347012,41.8163703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2526 W Grand Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.690467,41.891024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7059 S South Shore Dr</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.563868,41.7683018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2400 E 105th St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.5644536,41.7056963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Comets Field, 501 E 90th Pl</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6112026,41.7301281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6601 N Western Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6890062,42.0021787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5531 S Martin Luther King Dr</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6154891,41.7933831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3770 S Wentworth Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6316705,41.8254256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4233 W 65th St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7288495,41.7744601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>401 123rd St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6320972,41.6700406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
